@@ -88,11 +88,11 @@ function oddevenResult (){
     oddinput.style.marginBottom = '30px';
     
 
-    if(remainder == 0 && oddinputlength <=15){
+    if(remainder == 0 && oddinputlength <=15 && oddinputlength > 0){
         oeResultText.innerHTML = 'It Is Even';
         oeResultText.style.color = 'rgb(0, 255, 208)';
     }
-    else if(oddinputlength<=15){
+    else if(oddinputlength<=15 && oddinputlength > 0){
         oeResultText.innerHTML = "It's is Odd";
         oeResultText.style.color = 'white'
     }
@@ -104,5 +104,3 @@ function oddevenResult (){
 }
 
 oddinput.addEventListener("keyup", oddevenResult)
-
-
