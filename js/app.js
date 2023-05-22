@@ -97,7 +97,7 @@ function oddevenResult (){
         oeResultText.style.color = 'white'
     }
     else{
-        oeResultText.innerHTML = "It's is Invalid"
+        oeResultText.innerHTML = `<i class="bi bi-emoji-smile-upside-down"> </i><i class="bi bi-emoji-smile-upside-down"> </i><i class="bi bi-emoji-smile-upside-down"></i>`;
         oeResultText.style.color = 'red'
     }
     
